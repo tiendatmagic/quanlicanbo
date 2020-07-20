@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:quanlysinhvien"
         mc:Ignorable="d"
         Title="Quản lý cán bộ - Data Reader" Height="450" Width="1020.8" FontSize="15">
-    <Grid>
+    <Grid Background="#FFFFE8F7">
         <Button x:Name="btnKetnoi" Content="Kết nối" HorizontalAlignment="Left" Margin="35,254,0,0" VerticalAlignment="Top" Width="109" Height="61" Click="btnKetnoi_Click" FontSize="14"/>
         <DataGrid x:Name="dulieu" HorizontalAlignment="Left" Height="161" Margin="35,52,0,0" VerticalAlignment="Top" Width="665"/>
         <Button x:Name="btnDulieu" Content="Xem dữ liệu" HorizontalAlignment="Left" Margin="201,254,0,0" VerticalAlignment="Top" Width="90" Height="61" Click="btnDulieu_Click" FontSize="14"/>
